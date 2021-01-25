@@ -1,0 +1,131 @@
+body {
+    text-align: center;
+    margin: 0;
+
+
+}
+
+#welcome {
+    height: 800px;
+    color: white;
+    background: linear-gradient(#09e6e2 0%, #9109e6 100%);
+    width: 100%;
+    display: table;
+    z-index: 9;
+    position: absolute;
+
+}
+
+#picture {
+    width: 250px;
+    border-radius: 50px;
+    margin-bottom: 50px;
+
+}
+
+#inner {
+    display: table-cell;
+    position: relative;
+    vertical-align: middle;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 300;
+    font-family: 'Oswald', sans-serif;
+
+
+}
+
+#bio {
+    padding: 20px;
+    font-size: 17px;
+
+}
+
+p {
+    max-width: 450px;
+    margin: 25px auto;
+}
+
+.line {
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+.menu {
+    list-style: none;
+    font-family: 'Roboto Mono', monospace;
+    cursor: pointer;
+    position: fixed;
+    z-index: 10;
+    background: aliceblue;
+    width: 100%;
+    margin-top: 0px;
+
+}
+
+#name {
+    font-family: 'Satisfy', cursive;
+}
+
+.links {
+    display: inline;
+    color: aliceblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-size: 25px;
+}
+
+.links:hover {
+    background-color: darkturquoise;
+}
+
+.article:hover {
+    color: blueviolet;
+}
+
+a {
+    text-decoration: none;
+    color: crimson;
+    text-shadow: 5px 2px gainsboro;
+}
+
+#writings a {
+    text-shadow: none !important;
+    text-decoration: underline !important;
+    color: fuchsia;
+
+}
+
+#contact {
+    background-color: blue;
+}
+
+#contact iframe {
+    width: 100%;
+}
+
+.contact_1 h3 {
+    display: inline;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.contact_1 a {
+    color: aliceblue;
+text-shadow: none;
+}
